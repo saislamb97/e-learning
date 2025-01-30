@@ -1,0 +1,7 @@
+apps:
+  - name: learning-react
+    script: npm
+    args: run dev -- --host
+    cwd: /home/ubuntu/learning-system/frontend
+    env_file: /home/ubuntu/learning-system/frontend/.env # Path to the .env file
+    watch: false
